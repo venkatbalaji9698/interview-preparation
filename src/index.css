@@ -1,0 +1,19 @@
+.container {
+  width: 3000px;
+  display: flex;
+  overflow: auto;
+}
+
+.scroll-zone {
+  display: flex;
+  width: 100%;
+  /* width: 242px; */
+}
+
+.element {
+  white-space: nowrap;
+  padding: 4px 12px;
+  flex-grow: 1;
+  font-size: 16px;
+  /* width: 130px; */
+}
