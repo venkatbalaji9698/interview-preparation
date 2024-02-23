@@ -1,9 +1,9 @@
-import SuspenseFallbackLazy from "./components/SuspenseFallbackLazy";
+import UseIdComponent from "./components/UseIdComponent";
 
 function App() {
   return (
     <div className="App">
-      <SuspenseFallbackLazy />
+      <UseIdComponent />
     </div>
   );
 }
