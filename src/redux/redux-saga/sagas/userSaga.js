@@ -10,6 +10,9 @@ const getAPI = async () => {
 
 export function* fetchUserList() {
   try {
+    // const res = yield fetch("https://jsonplaceholder.typicode.com/users");
+    // const response = yield res.json();
+    // or use call method
     const response = yield call(getAPI);
     yield put(setUserListSuccess(response));
   } catch (error) {

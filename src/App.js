@@ -1,9 +1,9 @@
-import RTKQuery from "./redux/RTK-Query";
+import ReduxSaga from "./redux/redux-saga";
 
 function App() {
   return (
     <div className="App">
-      <RTKQuery />
+      <ReduxSaga />
     </div>
   );
 }
