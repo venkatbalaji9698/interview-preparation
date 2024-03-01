@@ -1,9 +1,9 @@
-import UseIdComponent from "./components/UseIdComponent";
+import RTKQuery from "./redux/RTK-Query";
 
 function App() {
   return (
     <div className="App">
-      <UseIdComponent />
+      <RTKQuery />
     </div>
   );
 }
