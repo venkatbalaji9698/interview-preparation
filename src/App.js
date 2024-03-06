@@ -1,9 +1,9 @@
-import ReduxSaga from "./redux/redux-saga";
+import ContextWithUseReducer from "./redux/contextWithUseReducer";
 
 function App() {
   return (
     <div className="App">
-      <ReduxSaga />
+      <ContextWithUseReducer />
     </div>
   );
 }
